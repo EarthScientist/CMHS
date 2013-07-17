@@ -12,7 +12,7 @@ soup.findAll('img')
 urlretrieve(soup.findAll('img')[1]['src'], "test.png")
 
 
-# loop the bitch
+# loop
 outpath="/Users/malindgren/Documents/CMHS"
 
 for i in soup.findAll('img'):
